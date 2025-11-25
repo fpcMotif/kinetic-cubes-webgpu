@@ -1,0 +1,9 @@
+#!/bin/sh
+# Exit on any error
+set -e
+
+# Run build before pushing
+echo "Running build check..."
+bun run build
+
+echo "✓ Build successful, proceeding with push"
