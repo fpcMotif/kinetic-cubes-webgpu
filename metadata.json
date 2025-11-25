@@ -1,0 +1,5 @@
+{
+  "name": "Kinetic Cubes WebGPU",
+  "description": "A high-performance WebGPU visualization featuring instanced geometry, procedural TSL animations, and post-processing effects like GTAO and Motion Blur.",
+  "requestFramePermissions": []
+}
