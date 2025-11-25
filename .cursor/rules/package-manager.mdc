@@ -1,0 +1,11 @@
+---
+description: Enforce using bun and bunx instead of npm/npx/yarn/pnpm
+globs: 
+---
+# Package Manager Rules
+
+- **ALWAYS** use `bun` instead of `npm`, `yarn`, or `pnpm`.
+- **ALWAYS** use `bunx` instead of `npx`.
+- When you see instructions to run `npm install`, run `bun install`.
+- When you see instructions to run `npx <command>`, run `bunx <command>`.
+- The project is configured as a Bun workspace.
